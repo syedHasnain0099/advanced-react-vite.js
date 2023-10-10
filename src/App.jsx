@@ -1,8 +1,8 @@
-import Starter from "./tutorial/07-useRef/starter/01-useRef-basics.jsx";
+import FetchData from "./tutorial/08-custom-hooks/starter/02-fetch-data.jsx";
 function App() {
   return (
     <div className="container">
-      <Starter />
+      <FetchData />
     </div>
   );
 }
