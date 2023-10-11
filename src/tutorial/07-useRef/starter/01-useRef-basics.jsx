@@ -16,6 +16,7 @@ const UseRefBasics = () => {
   }, [value]);
   const handleSubmit = (e) => {
     e.preventDefault();
+    console.log(refConatainer.current);
     const name = refConatainer.current.value;
     console.log(name);
   };

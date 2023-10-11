@@ -1,8 +1,8 @@
-import FetchData from "./tutorial/08-custom-hooks/starter/02-fetch-data.jsx";
+import Navbar from "./tutorial/09-context-api/starter/NavBar.jsx";
 function App() {
   return (
     <div className="container">
-      <FetchData />
+      <Navbar />
     </div>
   );
 }
